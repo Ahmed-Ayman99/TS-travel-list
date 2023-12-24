@@ -18,7 +18,7 @@ const Form = ({ onSubmit }: Props) => {
 
     onSubmit(newItem);
     setQuantity(1);
-    // setDescription("");
+    setDescription("");
   };
 
   return (
